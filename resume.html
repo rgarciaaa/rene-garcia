@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>René Emmanuel García Argüelles - CV</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace; /* Monospaced font for code-like feel */
+            background-color: #1a1a1a; /* Dark background similar to terminal */
+            color: #e0e0e0; /* Light text color */
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px; /* Padding around the content */
+            box-sizing: border-box; /* Include padding in element's total width and height */
+        }
+
+        .container {
+            max-width: 800px; /* Limit content width */
+            margin: 20px auto; /* Center the container */
+            padding: 30px;
+            background-color: #282828; /* Slightly lighter dark background for the content area */
+            border-radius: 8px; /* Slightly rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+        }
+
+        h1, h2, h3 {
+            color: #4CAF50; /* Green color for headings, like terminal prompts */
+            border-bottom: 1px solid #4CAF50; /* Underline for sections */
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-transform: uppercase; /* Match the large, bold, uppercase style */
+            border-bottom: none; /* No underline for the main name */
+            padding-bottom: 0;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.6em;
+            border-bottom: 1px dashed #666; /* Dashed line for sub-sections */
+        }
+
+        h3 {
+            font-size: 1.3em;
+            border-bottom: none; /* No underline for job titles */
+            margin-bottom: 5px;
+            color: #ADD8E6; /* Light blue for job title */
+        }
+
+        p {
+            margin: 0 0 10px 0; /* Spacing for paragraphs */
+        }
+
+        ul {
+            list-style: none; /* Remove default bullet points */
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px; /* Space for custom bullet */
+        }
+
+        li::before {
+            content: '- '; /* Custom bullet point */
+            color: #FFD700; /* Yellow for bullets */
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        strong {
+            color: #FFD700; /* Highlight important keywords in yellow */
+        }
+
+        em {
+            font-style: normal; /* Keep italic for dates if you want, or make it normal */
+            color: #98FB98; /* Light green for dates */
+        }
+
+        /* Adjusting colors for specific elements to match image */
+        .contact-info p {
+            color: #e0e0e0; /* Ensure contact info stays light */
+            margin-bottom: 5px;
+        }
+
+        .section-title { /* For general section titles */
+            color: #4CAF50;
+            border-bottom: 1px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .job-title { /* For job titles within experience */
+            color: #ADD8E6;
+            margin-bottom: 5px;
+        }
+
+        .company-name {
+            color: #ADD8E6; /* Same color for company name */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RENE EMMANUEL GARCÍA ARGÜELLES</h1>
+
+        <div class="contact-info">
+            <p>Email: rgarciaaMX@outlook.com</p>
+            <p>Phone: +52 729 847 9576</p>
+            <p>Location: Toluca, Estado de México</p>
+        </div>
+
+        <h2 class="section-title">Professional Experience</h2>
+
+        <h3 class="company-name">Walmart International | <span class="job-title">Software Engineer</span></h3>
+        <p><em>April 2022 – May 2025</em></p>
+        <ul>
+            <li>Updated and maintained ETL interfaces (<strong>Java, Tomcat, ActiveMQ, Cassandra</strong>), ensuring accurate data synthesis for key downstream systems.</li>
+            <li>Contributed to the development of a microservices platform for product returns (Canadian market), implementing solutions with <strong>Java, Spring Boot, Angular.js, Node.js, and Kubernetes</strong>.</li>
+            <li>Implemented robust messaging and data flow solutions with <strong>Apache Kafka and Apache Camel</strong> to enhance integration across distributed systems.</li>
+            <li>Managed production service deployments with <strong>Kubernetes</strong> and automated <strong>CI/CD</strong> workflows using <strong>Jenkins and GitHub Enterprise</strong>.</li>
+            <li>Led the analysis and implementation of partial refund functionality, involving **direct interaction and communication with our internal payment and refund service, which managed transactions with banking authorizers**, ensuring a fault-tolerant, consistent, and low-latency architecture.</li>
+            <li>Collaborated actively in agile **SCRUM** teams, participating in all sprint phases to ensure successful project delivery.</li>
+        </ul>
+
+        <h3 class="company-name">UNIVERSIDAD AUTÓNOMA DEL ESTADO DE MÉXICO | <span class="job-title">Attendance Control System Development</span></h3>
+        <p><em>February 2021 – September 2021</em></p>
+        <ul>
+            <li>Modeled and developed the **SQL database** for the system.</li>
+            <li>Designed and developed the user interface with **React.js**.</li>
+            <li>Developed the application logic with **Node.js and Express**.</li>
+        </ul>
+
+        <h2 class="section-title">Education</h2>
+        <h3 class="company-name">UNIVERSIDAD AUTÓNOMA DEL ESTADO DE MÉXICO</h3>
+        <p><em>2017 – 2022</em></p>
+        <p><strong>Ingeniería en Computación</strong></p>
+
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Java, Node.js, JavaScript</li>
+            <li><strong>Frameworks & Libraries:</strong> Spring Boot, Quarkus, Angular, React.js, Express</li>
+            <li><strong>Databases:</strong> Cassandra, MongoDB, MySQL, PostgreSQL</li>
+            <li><strong>Containers & Orchestration:</strong> Docker, Kubernetes</li>
+            <li><strong>Development & CI/CD Tools:</strong> Jenkins, GitHub Enterprise, Git, Maven</li>
+            <li><strong>Messaging & Data Flow:</strong> ActiveMQ, Apache Kafka, Apache Camel</li>
+            <li><strong>Agile Methodologies:</strong> SCRUM</li>
+            <li><strong>Payment Standards:</strong> Knowledge of ISO 20022 and its impact on payment modernization, complemented by experience in integration with internal payment processing services that interact directly with banking authorizers.</li>
+        </ul>
+
+        <h2 class="section-title">Aptitudes</h2>
+        <ul>
+            <li>Trabajo en equipo y colaboración.</li>
+            <li>Liderazgo y mentoría.</li>
+            <li>Comunicación efectiva</li>
+            <li>Gestión del tiempo y priorización</li>
+            <li>Pensamiento crítico y resolución de problemas</li>
+            <li>Adaptabilidad</li>
+            <li>Toma de decisiones y autonomía</li>
+        </ul>
+
+        <h2 class="section-title">Languages</h2>
+        <ul>
+            <li>Español: Nativo</li>
+            <li>Inglés: B2 (Avanzado)</li>
+        </ul>
+    </div>
+</body>
+</html>
